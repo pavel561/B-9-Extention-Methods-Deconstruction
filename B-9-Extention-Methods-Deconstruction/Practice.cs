@@ -54,6 +54,9 @@ namespace Base_Lesson_9.Practice
 			Console.WriteLine($"Минуты - {minutes}");
 			Console.WriteLine($"Секунды - {seconds}");
 
+			var (_, _, _, hour, min, sec) = dTime;
+			Console.WriteLine($"Текущее время - {hour}:{min}:{sec}");
+
 			Console.ReadKey();
 		}
 		
