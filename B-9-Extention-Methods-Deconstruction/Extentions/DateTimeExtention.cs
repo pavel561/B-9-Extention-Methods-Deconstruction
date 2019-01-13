@@ -18,7 +18,7 @@ namespace Base_Lesson_9.Extentions
 		//string seconds;
 		public static void Deconstruct(this DateTime dayTime, out string year, out string month, out string day, out string hours, out string minuts, out string seconds)
 		{
-			year = dayTime.Year.ToString();
+			year = dayTime.Year.ToString(); //
 			month = dayTime.Month.ToString();
 			day = dayTime.Day.ToString();
 			hours = dayTime.Hour.ToString();
